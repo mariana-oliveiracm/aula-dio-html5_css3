@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(245, 219, 185);
+    margin-left: 100px;
+    margin-right: 200px;
+}
+
+header{
+    margin-top: 70px;
+}
+
+h1{
+    color: rgb(54, 0, 155);
+    font-family: fantasy;
+}
+
+h2{
+    color: rgb(202, 115, 2);
+    font-family: fantasy;
+}
+
+p {
+    font-size: 18px;
+}
+
+footer{
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.img_padrao{
+    margin-bottom: 20px;
+    width: 300px;
+}
+
+.img_parceiro{
+    width: 150px;
+}
+
+.img_contato{
+    width: 50px;
+}
