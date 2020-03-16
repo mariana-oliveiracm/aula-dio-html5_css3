@@ -1,7 +1,6 @@
 body{
     background-color: rgb(245, 219, 185);
-    margin-left: 100px;
-    margin-right: 200px;
+
 }
 
 header{
@@ -14,8 +13,9 @@ h1{
 }
 
 h2{
-    color: rgb(202, 115, 2);
+    color: rgb(54, 0, 155);
     font-family: fantasy;
+    padding-bottom: 10px;
 }
 
 p {
@@ -25,6 +25,7 @@ p {
 footer{
     margin-bottom: 30px;
     text-align: center;
+    background-color: rgb(236, 184, 247);
 }
 
 .img_padrao{
@@ -38,4 +39,23 @@ footer{
 
 .img_contato{
     width: 50px;
+}
+
+
+
+.navbar{
+    background-color: rgb(236, 184, 247);
+}
+
+.padding{
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+#servicos, #parceiros {
+    background-color: rgb(252, 186, 101);
+}
+
+#clientes, #time {
+    background-color: rgb(231, 231, 231);
 }
