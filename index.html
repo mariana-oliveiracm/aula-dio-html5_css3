@@ -6,9 +6,10 @@
         <title>Minha Página</title>
         <link rel="stylesheet" type="text/css" href="bootstrap/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="style.css">
+        <script type="text/javascript" src="script.js"></script>
     </head>
 
-    <body>
+    <body onload="load()">
         <nav class="navbar navbar-expand-lg navbar-light">
             <a class="navbar-brand href="#"><img src="img/logo.png" width="100px"></a>
             <div class="collapse navbar-collapse">
@@ -23,8 +24,32 @@
         </nav>
 
         <header class="container-fluid text-right">
-            <h1>Meu Título H1</h1>
-            <p>meu parágrafo no header</p>
+            <div class="row">
+                <div class="col-lg-4">
+                    <h1>Meu Título H1</h1>
+                    <p>meu parágrafo no header</p>
+                </div>
+                <div class="col-lg-4">
+                    <button type="button" onclick="clicou()">Clique Aqui</button>
+                    <button type="button" onclick="clicar()">Clique Aqui H3</button>
+                    <h3 id="agradecimento" onclick="redirecionar()"></h3>
+                    <p onmouseover="trocar(this)">Passe o mouse aqui</p>
+                    <p onmouseover="trocar(this)" onmouseout="voltar(this)">Passe o mouse aqui também</p>
+                    <select onchange="funcaoChange(this)">
+                        <option value="1">Valor 1</option>
+                        <option value="2"> Valor 2</option>
+                        <option value="3"> Valor 3</option>
+                    </select>
+                </div>
+                <div class="col-lg-4">
+                    <span style="font-family: Impact; font-size: 50px" id="saudacao">Mude as cores</span><br>
+                    <button onclick="mudacor('blue')">Azul</button>
+                    <button onclick="mudacor('red')">Vermelho</button>
+                    <button onclick="mudafundo('blue')">Fundo Azul</button>
+                    <button onclick="mudafundo('red')">Fundo Vermelho</button>
+                    <button onmouseover ="fontsize('20px')" onmouseout="fontsize('50px')">Diminuir ao passar</button>
+                </div>
+            </div>
         </header>
 
 
